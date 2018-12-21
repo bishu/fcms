@@ -9,9 +9,11 @@
 <link rel="stylesheet" type="text/css" href="<?php echo $TMPL['path']; ?>inc/thirdparty/bootstrap/css/bootstrap.min.css?v=380"/>
 <link rel="stylesheet" type="text/css" href="<?php echo $TMPL['path']; ?>ui/themes/default/css/style.css?v=380"/>
 <link rel="stylesheet" type="text/css" media="only screen and (max-width: 480px)" href="<?php echo $TMPL["path"]; ?>ui/themes/default/css/mobile.css?v=380"/>
+<link href="<?php echo $TMPL['path']; ?>ui/js/tree-jquery/css/jquery-explr-1.4.css" rel="stylesheet">
 <script type="text/javascript" src="<?php echo $TMPL['path']; ?>ui/js/jquery.js?v=380"></script>
 <script type="text/javascript" src="<?php echo $TMPL['path']; ?>inc/thirdparty/bootstrap/js/bootstrap.min.js?v=380"></script>
 <script type="text/javascript" src="<?php echo $TMPL['path']; ?>ui/js/fcms.js?v=380"></script>
+<script src="<?php echo $TMPL['path']; ?>ui/js/tree-jquery/js/jquery-explr-1.4.js">
 <?php if (isset($TMPL['javascript'])) { echo $TMPL['javascript']; } ?>
 </head>
 <body id="top">
